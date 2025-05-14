@@ -6,7 +6,9 @@ from datetime import datetime
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
-def create_line_graph(beg = datetime(2020, 5, 12, 0), end = datetime(2020, 5, 12, 1)):
+def create_line_graph(beg, end):        
+
+
     beg = beg.timestamp()
     end = end.timestamp()
 
