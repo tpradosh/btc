@@ -15,6 +15,7 @@ while(1):
     try:
         start = (input("Start Day (YYYY M D): "))
         start = datetime.strptime(start, "%Y %m %d")
+        print("start")
     except:
         start = "2020 5 12"
         start = datetime.strptime(start, "%Y %m %d")
@@ -34,3 +35,5 @@ while(1):
     to_end = input("Press 'Enter' to Continue, Else to End: ")
     if(to_end != ''):
         break
+
+    
